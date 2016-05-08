@@ -1,0 +1,35 @@
+groups:
+  default:
+    permissions:
+    - - mv.bypass.gamemode.*
+    - modifyworld.*
+    - scriptblock.interact.use
+    - scriptblock.walk.use
+    - ezwarp.warp
+    options:
+      default: true
+  Moderator:
+    permissions:
+    - modifyworld.*
+    - bukkit.*
+    options:
+      default: fasle
+  Admin:
+    permissions:
+    - '*'
+    options:
+      default: false
+users:
+  10120c9b-ec35-4c3f-a7c5-f789b534d511:
+    group:
+    - Admin
+    - default
+    options:
+      name: Kichihei6
+  5f6a136e-d185-40e6b-05f9-bde5ee80928:
+    group:
+    - Admin
+    - default
+    options:
+      name:chell_rui
+schema-version: 1
